@@ -119,7 +119,8 @@ nav {
 } 
 
 #main #text {
-    width: 40%;
+    width: 30%;
+    padding: 5%;
     align-self: flex-end;
 }
 
