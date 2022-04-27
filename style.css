@@ -1,0 +1,121 @@
+* {
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: rgb(118, 171, 179);
+    color: white;
+    text-shadow: 1px 1px gray;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, p {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background: white;
+    padding: 10px;
+}
+
+.logo img {
+    width: 200px;
+    background-color: white;
+}
+
+nav {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    right: 50px;
+    position: absolute;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 10px;
+    height: 50px;
+    background: white;
+    align-items: center;
+}
+
+.nav-item a {
+    color: rgb(99, 144, 151);
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#carousel img {
+    width: 100%;
+}
+
+#carousel #carousel-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    padding-top: 300px;
+    text-shadow: 2px 2px gray;
+}
+
+#introduction {
+    background:  rgb(218, 231, 233);
+    color: rgb(13, 21, 32);
+    padding: 20px;
+}
+
+#introduction p {
+    font-size: 1.25em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#seasons div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#seasons img {
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+    
+}
+
+#seasons div a {
+    position: absolute;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px gray;
+}
