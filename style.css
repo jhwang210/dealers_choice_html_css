@@ -11,15 +11,19 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 h2 {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
-h1, h2 {
+h3 {
+    font-size: 1.5em;
+}
+
+h1, h2, h3 {
     text-transform: uppercase;
 }
 
@@ -88,7 +92,8 @@ nav {
 
 #introduction {
     background:  rgb(218, 231, 233);
-    color: rgb(13, 21, 32);
+    color: rgb(34, 83, 151);
+    text-shadow: 1px 1px rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -97,8 +102,32 @@ nav {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+#main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    flex: 0 0 33%;
+}
+
+#main img {
+    width: 40%;
+    height: calc(width*2);
+    background-size: cover;
+} 
+
+#main #text {
+    width: 40%;
+    align-self: flex-end;
+}
+
+#main a {
+    color:rgb(34, 83, 151);
+    text-decoration: underline;
+}
+
 #seasons div {
     display: flex;
     align-items: center;
